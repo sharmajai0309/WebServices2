@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.app.jai.Application;
+
 import com.app.jai.entity.Book;
 
 @Component
