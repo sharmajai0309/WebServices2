@@ -115,7 +115,7 @@ public class StudentRestController {
 	        content = @Content(mediaType = "application/json")
 	    )
 	})
-	@DeleteMapping("/remove/{id}")
+@DeleteMapping("/remove/{id}")
 	public ResponseEntity<String>DeleteStudent(@PathVariable Integer id){
 		
 		try {
